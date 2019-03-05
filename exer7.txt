@@ -1,0 +1,53 @@
+Language Description #1
+Consider the C++ programming language. (If you don't have experience with C++, feel free to use Java or something else for this question.) In your exer7.txt, indicate how C++ can be described with respect to each of these concepts we have discussed:
+
+Indicate which version of the language you're talking about: C++11, C++17 (or Java 9, 10 etc).
+C++99
+Overall programming paradigm (imperative, functional, object oriented, logic programming, etc.).
+imperative
+Compiled, interpreted, bytecode compiled, JIT compiled (for the most common tools: either GCC or Clang).
+Compiled
+Static or dynamic types. Static or dynamic binding.
+Statically typed, static binding
+Strong or weak typing.
+Strongly typed 
+Manual memory management or garbage collected (and garbage collection algorithm).
+The user (programmer) has to manually manage memory
+Has first-class functions? Has closures?
+C++1999 has none of these 
+What support for concurrent/parallel programming is available?
+Either the user creates threads using C++ thread classes or stick to the C style Posix API. 
+
+
+
+Language Description #2
+Pick another language you have experience with (other than Haskell). Repeat the first question for that language.
+
+Indicate which version of the language you're talking about: C++11, C++17 (or Java 9, 10 etc).
+Python 3.6
+
+Overall programming paradigm (imperative, functional, object oriented, logic programming, etc.).
+Object Oriented 
+
+Compiled, interpreted, bytecode compiled, JIT compiled (for the most common tools: either GCC or Clang).
+Interpreted 
+
+Static or dynamic types. Static or dynamic binding.
+Dynamically typed, statically bound
+
+Strong or weak typing.
+Weakly typed
+
+Manual memory management or garbage collected (and garbage collection algorithm).
+Garbage collected, Python uses both reference and garbage collection. Further,
+Python's garbage collection algorithims are based on object allocations and deallocations.  
+
+Has first-class functions? Has closures?
+Yes and no, python only has "weak" support for closures. 
+
+What support for concurrent/parallel programming is available?
+
+Python does not truly support threads instead, programmers who wish to program concurrent apps spawn off multiple processses
+and also Python has support for worker queues. 
+
+
